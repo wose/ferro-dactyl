@@ -1,0 +1,25 @@
+[package]
+name = "ferro-dactyl"
+version = "0.1.0"
+authors = ["Sebastian Woetzel <wose@zuendmasse.de>"]
+edition = "2018"
+
+
+[dependencies]
+generic-array = "0.13"
+usb-device = "0.2.0"
+embedded-hal = "0.2"
+keyberon = { git = "https://github.com/TeXitoi/keyberon.git" }
+void = { version = "1", default-features = false }
+stm32f1xx-hal = { version = "0.5", features = ["rt", "stm32f103", "stm32-usbd"] }
+cortex-m = "0.6"
+cortex-m-rt = { version = "0.6.6", features = ["device"] }
+panic-semihosting = "0.5"
+cortex-m-rtfm = "0.5"
+cortex-m-semihosting = "0.3.2"
+
+[profile.release]
+lto = true
+incremental = false
+opt-level = "z"
+debug = true
