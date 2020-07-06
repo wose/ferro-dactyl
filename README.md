@@ -28,7 +28,7 @@ The [STLs] are generated using [20lives Dactyl-Manuform fork]. I'm using a 5x6
 version.
 
 [STLs]: stl/
-[20lives Dactyl-Manuform form]:  https://github.com/20lives/Dactyl-Manuform
+[20lives Dactyl-Manuform fork]:  https://github.com/20lives/Dactyl-Manuform
 
 ## Firmware
 
