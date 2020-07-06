@@ -1,5 +1,7 @@
 # Ferro Dactyl
 
+![Logo](./images/logo.png)
+
 > A BluePill (STM32F103) based [Dactyl-Manuform] build with [keyberon] powered
 > firmware written in Rust. 
 
