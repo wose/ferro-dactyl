@@ -15,11 +15,12 @@ I'm using a [AdNW] based Layout. This is a work in progress.
 ![Layout](./images/layout.png)
 
 You can take the layout definition from the [layout folder] and play with it
-over at [Keyboard Layout Editor].
+over at [Keyboard Layout Editor]. Or use [this link].
 
 [AdNW]: http://www.adnw.de/
 [layout folder]:layout/
 [Keyboard Layout Editor]: http://www.keyboard-layout-editor.com/
+[this link]: http://www.keyboard-layout-editor.com/#/gists/5a7d56aa6b7ebb05c0e3928ac5250a80
 
 ## Hardware
 
@@ -38,10 +39,11 @@ The firmware uses the [keyberon] library.
 curl https://sh.rustup.rs -sSf | sh
 rustup target add thumbv7m-none-eabi
 sudo apt-get install gdb-arm-none-eabi openocd
-cd keyberon
+git clone https://github.com/wose/ferro-dactyl.git
+cd ferro-dactyl
 # connect ST-Link v2 to the blue pill and the computer
 # openocd in another terminal
-cargo run --release --example keyberon60
+cargo run --release
 ```
 See `keyberons` [building instructions] for more info.
 
