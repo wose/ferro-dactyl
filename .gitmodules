@@ -1,0 +1,3 @@
+[submodule "kicad/lib/STM32"]
+	path = kicad/lib/STM32
+	url = https://github.com/yet-another-average-joe/Kicad-STM32.git
