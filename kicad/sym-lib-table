@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name YAAJ_STM32)(type Legacy)(uri ${KIPRJMOD}/lib/STM32/Symbols/YAAJ_STM32.lib)(options "")(descr ""))
-)
